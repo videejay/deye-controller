@@ -1,0 +1,29 @@
+# MQTT broker host address
+MQTT_HOST: 'your_mqtt_broker_address'
+
+# IP address of the inverter
+INVERTER_IP: 'your_inverter_ip_address'
+
+# Serial number of the inverter
+INVERTER_SN: your_inverter_serial_number
+
+# Port number for the MQTT broker
+MQTT_PORT: 1883
+
+# MQTT topic to publish the active power data
+MQTT_TOPIC: 'your/mqtt/topic'
+
+# Initial delay before attempting to reconnect to the MQTT broker (in seconds)
+FIRST_RECONNECT_DELAY: 1
+
+# Rate at which the reconnect delay increases
+RECONNECT_RATE: 2
+
+# Maximum number of reconnect attempts
+MAX_RECONNECT_COUNT: 12
+
+# Maximum delay between reconnect attempts (in seconds)
+MAX_RECONNECT_DELAY: 60
+
+# Interval at which the inverter's active power is polled (in seconds)
+POLLING_INTERVAL: 60
