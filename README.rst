@@ -18,7 +18,7 @@ INSTALL
 
 .. code-block:: console
 
-  pip install deye-controller
+  pip install deye-controller pyyaml pysolarmanv5 paho.mqtt
 
 
 TODO List
@@ -28,6 +28,11 @@ TODO List
 Examples
 ==============
 * Basic usage:
+
+    * copy the config.yaml.example to config.yaml and fill out
+    * run `deye600_ac_power.py` 
+
+    --- or ---
 
     * read a register from the inverter
 
